@@ -9,9 +9,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -164,7 +162,6 @@
 
     <!--底栏-->
     <LinearLayout
-        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:weightSum="4"
@@ -177,21 +174,21 @@
             android:layout_weight="1">
 
             <ImageView
-                android:id="@+id/img1"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
+                android:background="@mipmap/test_icon3"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="15dp"
-                android:background="@mipmap/test_icon3" />
+                android:id="@+id/img1"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/img1"
+                android:text="首页"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="5dp"
+                android:layout_below="@+id/img1"
                 android:gravity="center"
-                android:text="首页" />
+                android:layout_marginTop="5dp"/>
         </RelativeLayout>
 
         <!--待办事项-->
@@ -201,21 +198,21 @@
             android:layout_weight="1">
 
             <ImageView
-                android:id="@+id/img2"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
+                android:background="@mipmap/test_icon6"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="15dp"
-                android:background="@mipmap/test_icon6" />
+                android:id="@+id/img2"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/img2"
+                android:text="待办事项"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="5dp"
+                android:layout_below="@+id/img2"
                 android:gravity="center"
-                android:text="待办事项" />
+                android:layout_marginTop="5dp"/>
         </RelativeLayout>
 
         <!--报表-->
@@ -225,21 +222,21 @@
             android:layout_weight="1">
 
             <ImageView
-                android:id="@+id/img3"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
+                android:background="@mipmap/test_icon7"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="15dp"
-                android:background="@mipmap/test_icon7" />
+                android:id="@+id/img3"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/img3"
+                android:text="报表"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="5dp"
+                android:layout_below="@+id/img3"
                 android:gravity="center"
-                android:text="报表" />
+                android:layout_marginTop="5dp"/>
         </RelativeLayout>
 
         <!--管理-->
@@ -249,21 +246,21 @@
             android:layout_weight="1">
 
             <ImageView
-                android:id="@+id/img4"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
+                android:background="@mipmap/test_icon8"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="15dp"
-                android:background="@mipmap/test_icon8" />
+                android:id="@+id/img4"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/img4"
+                android:text="管理"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="5dp"
+                android:layout_below="@+id/img4"
                 android:gravity="center"
-                android:text="管理" />
+                android:layout_marginTop="5dp"/>
         </RelativeLayout>
     </LinearLayout>
 
